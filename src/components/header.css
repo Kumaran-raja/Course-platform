@@ -1,0 +1,74 @@
+header{
+    display: flex;
+    justify-content: end;
+    background-color: #003566;
+}
+header a li{
+    list-style-type: none;
+    padding: 20px;
+    font-size: 20px;
+
+    color: white;
+}
+header button{
+    display: block;
+    margin: 10px;
+    padding: 10px;
+    background-color: orange;
+    color: white;
+    font-size: 20px;
+    border: none;
+}
+header a{
+    display: flex;
+    align-items: center;
+}
+
+@media (min-width: 320px) and (max-width: 375px) {
+    header a li{
+        font-size: 10px;
+        padding: 10px;
+    }
+    header button{
+        font-size: 15px;
+    }
+}
+@media (min-width: 375px) and (max-width: 425px) {
+    header a li{
+        font-size: 13px;
+        padding: 10px;
+    }
+}
+@media (min-width: 425px) and (max-width: 480px) {
+    header a li{
+        font-size: 15px;
+        padding: 10px;
+    }
+}
+@media (min-width: 480px) and (max-width: 600px) {
+    header a li{
+        font-size: 20px;
+        padding: 10px;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 767px) {
+    header button{
+        padding: 10px 20px;
+    }
+}
+@media (min-width: 767px) and (max-width: 1023px) {
+    header button{
+        padding: 10px 30px;
+    }
+}
+@media (min-width: 1023px) and (max-width: 1200px) {
+    header button{
+        padding: 10px 30px;
+    }
+}
+@media (min-width: 1200px) {
+    header button{
+        padding: 10px 30px;
+    }
+}
