@@ -1,0 +1,25 @@
+import React from 'react'
+import Aboutimg from '../assets/about.png'
+import './about.css'
+export default function about() {
+  return (
+    <div>
+        <div className='about_img_container'>
+            <img className='aboutimg' src={Aboutimg} alt="" />
+            <h1 className='AboutName'>About Us</h1>
+        </div>
+        <div className='about_content'>
+            <h1>
+                Introduction
+            </h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis deleniti excepturi aut dolorum quae asperiores veritatis amet sapiente facilis, commodi adipisci quos autem assumenda saepe repudiandae natus possimus esse. Libero eos iste enim dolorum sed dolore eius nesciunt explicabo atque aliquam illo distinctio id molestiae excepturi minus ea adipisci magnam fuga quaerat accusantium, nostrum, mollitia ratione suscipit doloribus. Enim nisi commodi reprehenderit voluptas quo beatae, accusantium at tempora eius eum illo eveniet porro nostrum repellat sit cumque et quasi soluta nulla maxime dolores placeat amet! Harum tenetur velit earum eaque culpa hic blanditiis vero rem consequuntur officia. Quas similique velit dolore sint saepe ullam ab inventore corporis obcaecati accusamus cumque deleniti, ad labore vel dolorem, repellendus excepturi. Architecto minima nulla veritatis saepe quae temporibus, necessitatibus minus illo aliquid? Fugiat necessitatibus pariatur veritatis corrupti sint molestiae in perspiciatis iure autem iste, delectus recusandae numquam at est fugit sed quidem eligendi provident minus similique suscipit expedita blanditiis dolor? Fugit asperiores ducimus consectetur deleniti, iste debitis corrupti qui pariatur quis hic voluptatem cum impedit minima inventore rerum at, quidem quo! Deserunt hic voluptatibus harum! Dolor sunt cupiditate molestias voluptatem velit amet nisi aut perferendis dolores, quasi saepe in earum sequi, autem numquam consectetur cumque alias qui tempore eos dicta iste similique expedita? Dolores modi repellendus esse sint error, amet officiis, ex quos quae illo mollitia fugiat tempore porro magnam architecto vel eveniet delectus illum distinctio temporibus earum veniam eius. Magni illum temporibus beatae hic facilis maxime corrupti expedita debitis fugiat sed fuga nostrum velit dignissimos voluptatem, officiis rerum. Autem, voluptates dolores. Non, quod ea. Nulla, dolores! Vero, corrupti? Nihil hic architecto corrupti! Cumque impedit consectetur quia doloremque totam in hic, nisi vitae ipsa molestiae, maiores quos id tempora ratione aspernatur. Veniam quis minima dolorem perspiciatis corporis quibusdam, possimus quidem ipsam harum voluptatum cum ipsum expedita. Itaque incidunt ab temporibus ex illum tenetur dignissimos, illo facilis assumenda quidem voluptates officiis neque vero debitis! Veniam suscipit perferendis ipsam vero, placeat veritatis laudantium iste quasi cupiditate, inventore mollitia quidem vel obcaecati voluptas pariatur nostrum similique dolorem dolorum commodi asperiores! Saepe eum eius, consectetur libero quo rerum eos, repellendus ea ullam ut quasi deleniti sit quae reiciendis fugit nobis sed id sequi quam explicabo doloremque natus. Dolorum fuga ipsam eaque, neque asperiores molestias incidunt eligendi quae quidem, qui itaque laudantium. Odit quam non, autem ut dolor sint amet reprehenderit. Similique error praesentium nam ipsa cum voluptas, neque beatae placeat voluptatibus! Ab maxime dolorum iste provident eaque laboriosam nesciunt. Porro maxime dignissimos id nemo repudiandae modi natus delectus impedit, quas assumenda? Voluptas, eligendi debitis. Totam id voluptatem explicabo dignissimos autem quam, suscipit expedita porro! Nemo laudantium adipisci voluptas. Voluptatum numquam, rem, fugiat ex non minus sint exercitationem praesentium tempore nisi dolor optio quo aspernatur, eligendi nam eius odio commodi obcaecati vel! Praesentium illo numquam, reiciendis dolore ratione provident hic nemo, repudiandae cumque quo assumenda beatae? Earum alias, quod, consectetur vero nihil soluta dignissimos mollitia explicabo itaque, quos perspiciatis sed aut ad magnam tempore ipsum modi eaque veniam totam.</p>
+            <h1>Vision</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus reiciendis vel cupiditate architecto dolorem illum facilis dolor quod nesciunt incidunt eos quidem doloribus deleniti aut quo aperiam soluta, hic molestias autem quos! Exercitationem voluptatum quisquam praesentium a commodi eaque, quia totam accusamus impedit, earum deleniti molestiae delectus porro, ab fugiat?</p>
+            <h1>Mission</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus reiciendis vel cupiditate architecto dolorem illum facilis dolor quod nesciunt incidunt eos quidem doloribus deleniti aut quo aperiam soluta, hic molestias autem quos! Exercitationem voluptatum quisquam praesentium a commodi eaque, quia totam accusamus impedit, earum deleniti molestiae delectus porro, ab fugiat?</p>
+        </div>
+        
+
+    </div>
+  )
+}

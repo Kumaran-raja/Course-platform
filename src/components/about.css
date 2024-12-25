@@ -1,0 +1,37 @@
+
+.about_img_container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%; 
+    height: 400px;
+    overflow: hidden;
+  }
+  
+  .aboutimg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.5;
+    position: absolute; 
+    top: 0;
+    left: 0;
+  }
+  
+  .AboutName {
+    position: absolute;
+    color: black; 
+    font-size: 60px; 
+    font-weight: bold;
+    z-index: 1;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    opacity: 1;
+  }
+  .about_content{
+    margin: 40px;
+  }
+  .about_content p{
+    text-align: justify;
+  }
+  

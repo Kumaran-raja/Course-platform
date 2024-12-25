@@ -37,7 +37,7 @@ export default function footer() {
           <li><a href="#">Return & Refund Policy</a></li>
         </div>
       </div>
-       <h2>&copy; 2024 Exams. All rights reserved</h2>
+       <p className='copy'>&copy; 2024 Exams. All rights reserved</p>
     </footer>
   )
 }
