@@ -162,14 +162,14 @@ export default function exam() {
         </div>
       
         <h1 className='exam_title'>UPSC Exams</h1>
-        <div class="accordion" id="accordionExample">
+        <div class="accordion" id="accordionExample1">
         <div class="accordion-item">
             <h2 class="accordion-header">
-            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#upscone" aria-controls="upscone">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false"  aria-controls="collapseSix">
                 Engineering service exam
             </button>
             </h2>
-            <div id="upscone" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+            <div id="collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionExample1">
             <div class="accordion-body">
                 <div  className='exam_grid'>
                     <div>
@@ -207,11 +207,11 @@ export default function exam() {
         </div>
         <div class="accordion-item">
             <h2 class="accordion-header">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#upsctwo" aria-expanded="false" aria-controls="upsctwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
             Medical Service Examination
             </button>
             </h2>
-            <div id="upsctwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div id="collapseSeven" class="accordion-collapse collapse" data-bs-parent="#accordionExample1">
             <div class="accordion-body">
             <div  className='exam_grid'>
                     <div>
@@ -233,11 +233,11 @@ export default function exam() {
         </div>
         <div class="accordion-item">
             <h2 class="accordion-header">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#upscThree" aria-expanded="false" aria-controls="upscThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
             IAS Exams
             </button>
             </h2>
-            <div id="upscThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div id="collapseEight" class="accordion-collapse collapse" data-bs-parent="#accordionExample1">
             <div class="accordion-body">
             <div  className='exam_grid'>
                     <div>
@@ -259,11 +259,11 @@ export default function exam() {
         </div>
         <div class="accordion-item">
             <h2 class="accordion-header">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#upscfour" aria-expanded="false" aria-controls="upscfour">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
             Railway Apprentices Exam
             </button>
             </h2>
-            <div id="upscfour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div id="collapseNine" class="accordion-collapse collapse" data-bs-parent="#accordionExample1">
             <div class="accordion-body">
             <div  className='exam_grid'>
                     <div>
@@ -285,11 +285,11 @@ export default function exam() {
         </div>
         <div class="accordion-item">
             <h2 class="accordion-header">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#upscfive" aria-expanded="false" aria-controls="upscfive">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
                 Central Armed Police Forces Exam
             </button>
             </h2>
-            <div id="upscfive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div id="collapseTen" class="accordion-collapse collapse" data-bs-parent="#accordionExample1">
             <div class="accordion-body">
             <div  className='exam_grid'>
                     <div>
