@@ -1,5 +1,6 @@
 import React from 'react'
 import './exam.css'
+
 export default function exam() {
   return (
     
@@ -292,24 +293,25 @@ export default function exam() {
             <div id="collapseTen" class="accordion-collapse collapse" data-bs-parent="#accordionExample1">
             <div class="accordion-body">
             <div  className='exam_grid'>
+                <div>
                     <div>
-                        <div>
-                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam, obcaecati?</p>
-                        </div>
-                        <div className='exam_detail_grid'>
-                            <p>number of questions :90</p>
-                            <p>Pass Mark:24</p>
-                            <p>Duration:70m</p>
-                        </div>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam, obcaecati?</p>
                     </div>
-                    <div style={{display:"block",margin:"auto"}}>
-                    <button>Start</button>
+                    <div className='exam_detail_grid'>
+                        <p>number of questions :90</p>
+                        <p>Pass Mark:24</p>
+                        <p>Duration:70m</p>
                     </div>
+                </div>
+                <div style={{display:"block",margin:"auto"}}>
+                <button>Start</button>
+                </div>
                 </div>
             </div>
             </div>
         </div>
         </div>
+       
    </div>
     
   )

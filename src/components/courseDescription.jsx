@@ -3,7 +3,9 @@ import './courseDescription.css'
 import couse from '../assets/course1.png'
 import { TbWorld } from "react-icons/tb";
 import { FaRegStar } from "react-icons/fa";
-
+import { IoMdThumbsUp } from "react-icons/io";
+import { IoMdThumbsDown } from "react-icons/io";
+import profile from '../assets/contact.png'
 export default function 
 () {
   return (
@@ -43,55 +45,232 @@ export default function
             <p style={{padding:"10px 0px"}}>Free trial</p>
             <div>
               <div className='list_of_content_item'>
-                <p>Introduction to UPSC</p>
-                <p>1h 30m 50s</p>
+                <p>Understanding the UPSC Exam Structure</p>
+                <p>0h 4m 34s</p>
                 <button>Start</button>
               </div>
               <div className='list_of_content_item'>
-                <p>Introduction to UPSC</p>
-                <p>1h 30m 50s</p>
+                <p>Importance of Current Affairs in UPSC</p>
+                <p>0h 2m 50s</p>
                 <button>Start</button>
               </div>
               <div className='list_of_content_item'>
-                <p>Introduction to UPSC</p>
-                <p>1h 30m 50s</p>
+                <p>Effective Time Management for UPSC Preparation</p>
+                <p>0h 4m 50s</p>
                 <button>Start</button>
               </div>
             </div>
             <p style={{padding:"10px 0px"}}>Available for Paid Users Only (Locked)</p>
             <div>
               <div className='list_of_content_item'>
-                <p>Introduction to UPSC</p>
-                <p>1h 30m 50s</p>
+                <p>Choosing the Right Study Material for UPSC</p>
+                <p>0h 24m 50s</p>
                 <button>Start</button>
               </div>
               <div className='list_of_content_item'>
-                <p>Introduction to UPSC</p>
-                <p>1h 30m 50s</p>
+                <p>The Role of Mock Tests and Previous Year Papers</p>
+                <p>0h 30m 50s</p>
                 <button>Start</button>
               </div>
               <div className='list_of_content_item'>
-                <p>Introduction to UPSC</p>
-                <p>1h 30m 50s</p>
+                <p>Strategy for General Studies Paper</p>
+                <p>1h 45m 50s</p>
                 <button>Start</button>
               </div>
               <div className='list_of_content_item'>
-                <p>Introduction to UPSC</p>
-                <p>1h 30m 50s</p>
+                <p>Optional Subject Selection and Preparation Tips</p>
+                <p>0h 30m 50s</p>
                 <button>Start</button>
               </div>
               <div className='list_of_content_item'>
-                <p>Introduction to UPSC</p>
-                <p>1h 30m 50s</p>
+                <p>Developing Answer Writing Skills</p>
+                <p>1h 35m 50s</p>
                 <button>Start</button>
               </div>
               <div className='list_of_content_item'>
-                <p>Introduction to UPSC</p>
-                <p>1h 30m 50s</p>
+                <p>Mental and Physical Wellness During UPSC Preparation</p>
+                <p>1h 10m 50s</p>
                 <button>Start</button>
               </div>
             </div>
         </div>
+        <hr />
+        <div>
+            <h1>Course Reviews</h1>
+            <div className='review_container'>
+                <div className='review_grid'>
+                    <div className='each_review'>
+                        <div className='profile_with_rating'>
+                            <img className='review_profile' src={profile} alt="" />
+                            <div>
+                                <h4 style={{margin:"0px"}}>Aarya</h4>
+                                <FaRegStar />
+                                <FaRegStar />
+                                <FaRegStar />
+                                <FaRegStar />
+                                <FaRegStar />
+                            </div>
+                            <p style={{textAlign:"end",display:"block",margin:"auto 0px"}}>10 day ago</p>
+                        </div>
+                        <p style={{textAlign:"justify",height:"150px",overflow:"hidden",marginTop:"10px"}}>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est nobis ipsa totam porro architecto quisquam reiciendis praesentium laboriosam eveniet blanditiis. Laborum, dolor nostrum. Ullam consectetur fugiat doloremque dicta, magni reiciendis.</p>
+                        <div style={{display:"flex"}}>
+                            <p style={{margin:"0px"}}>Helpful?</p>
+                        
+                            <IoMdThumbsUp className='rating_like_icon'/>
+                            <IoMdThumbsDown  className='rating_like_icon' />
+                        </div>
+                    </div>
+                    <div className='each_review'>
+                        <div className='profile_with_rating'>
+                            <img className='review_profile' src={profile} alt="" />
+                            <div>
+                                <h4 style={{margin:"0px"}}>Vijay</h4>
+                                <FaRegStar />
+                                <FaRegStar />
+                                <FaRegStar />
+                                <FaRegStar />
+                                <FaRegStar />
+                            </div>
+                            <p style={{textAlign:"end",display:"block",margin:"auto 0px"}}>1 Month ago</p>
+                        </div>
+                        <p style={{textAlign:"justify",height:"150px",overflow:"hidden",marginTop:"10px"}}>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est nobis ipsa totam porro architecto quisquam reiciendis praesentium laboriosam eveniet blanditiis. Laborum, dolor nostrum. Ullam consectetur fugiat doloremque dicta, magni reiciendis.</p>
+                        <div style={{display:"flex"}}>
+                            <p style={{margin:"0px"}}>Helpful?</p>
+                        
+                            <IoMdThumbsUp className='rating_like_icon'/>
+                            <IoMdThumbsDown  className='rating_like_icon' />
+                        </div>
+                    </div>
+                    <div className='each_review'>
+                        <div className='profile_with_rating'>
+                            <img className='review_profile' src={profile} alt="" />
+                            <div>
+                                <h4 style={{margin:"0px"}}>Antony</h4>
+                                <FaRegStar />
+                                <FaRegStar />
+                                <FaRegStar />
+                                <FaRegStar />
+                                <FaRegStar />
+                            </div>
+                            <p style={{textAlign:"end",display:"block",margin:"auto 0px"}}>20 day ago</p>
+                        </div>
+                        <p style={{textAlign:"justify",height:"150px",overflow:"hidden",marginTop:"10px"}}>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est nobis ipsa totam porro architecto quisquam reiciendis praesentium laboriosam eveniet blanditiis. Laborum, dolor nostrum. Ullam consectetur fugiat doloremque dicta, magni reiciendis.</p>
+                        <div style={{display:"flex"}}>
+                            <p style={{margin:"0px"}}>Helpful?</p>
+                        
+                            <IoMdThumbsUp className='rating_like_icon'/>
+                            <IoMdThumbsDown  className='rating_like_icon' />
+                        </div>
+                    </div>
+                    <div className='each_review'>
+                        <div className='profile_with_rating'>
+                            <img className='review_profile' src={profile} alt="" />
+                            <div>
+                                <h4 style={{margin:"0px"}}>Meera</h4>
+                                <FaRegStar />
+                                <FaRegStar />
+                                <FaRegStar />
+                                <FaRegStar />
+                                <FaRegStar />
+                            </div>
+                            <p style={{textAlign:"end",display:"block",margin:"auto 0px"}}>2 day ago</p>
+                        </div>
+                        <p style={{textAlign:"justify",height:"150px",overflow:"hidden",marginTop:"10px"}}>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est nobis ipsa totam porro architecto quisquam reiciendis praesentium laboriosam eveniet blanditiis. Laborum, dolor nostrum. Ullam consectetur fugiat doloremque dicta, magni reiciendis.</p>
+                        <div style={{display:"flex"}}>
+                            <p style={{margin:"0px"}}>Helpful?</p>
+                        
+                            <IoMdThumbsUp className='rating_like_icon'/>
+                            <IoMdThumbsDown  className='rating_like_icon' />
+                        </div>
+                    </div>
+                    <div className='each_review'>
+                        <div className='profile_with_rating'>
+                            <img className='review_profile' src={profile} alt="" />
+                            <div>
+                                <h4 style={{margin:"0px"}}>Vikram</h4>
+                                <FaRegStar />
+                                <FaRegStar />
+                                <FaRegStar />
+                                <FaRegStar />
+                                <FaRegStar />
+                            </div>
+                            <p style={{textAlign:"end",display:"block",margin:"auto 0px"}}>4 day ago</p>
+                        </div>
+                        <p style={{textAlign:"justify",height:"150px",overflow:"hidden",marginTop:"10px"}}>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est nobis ipsa totam porro architecto quisquam reiciendis praesentium laboriosam eveniet blanditiis. Laborum, dolor nostrum. Ullam consectetur fugiat doloremque dicta, magni reiciendis.</p>
+                        <div style={{display:"flex"}}>
+                            <p style={{margin:"0px"}}>Helpful?</p>
+                        
+                            <IoMdThumbsUp className='rating_like_icon'/>
+                            <IoMdThumbsDown  className='rating_like_icon' />
+                        </div>
+                    </div>
+                    <div className='each_review'>
+                        <div className='profile_with_rating'>
+                            <img className='review_profile' src={profile} alt="" />
+                            <div>
+                                <h4 style={{margin:"0px"}}>Aanand</h4>
+                                <FaRegStar />
+                                <FaRegStar />
+                                <FaRegStar />
+                                <FaRegStar />
+                                <FaRegStar />
+                            </div>
+                            <p style={{textAlign:"end",display:"block",margin:"auto 0px"}}>10 month ago</p>
+                        </div>
+                        <p style={{textAlign:"justify",height:"150px",overflow:"hidden",marginTop:"10px"}}>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est nobis ipsa totam porro architecto quisquam reiciendis praesentium laboriosam eveniet blanditiis. Laborum, dolor nostrum. Ullam consectetur fugiat doloremque dicta, magni reiciendis.</p>
+                        <div style={{display:"flex"}}>
+                            <p style={{margin:"0px"}}>Helpful?</p>
+                        
+                            <IoMdThumbsUp className='rating_like_icon'/>
+                            <IoMdThumbsDown  className='rating_like_icon' />
+                        </div>
+                    </div>
+                    <div className='each_review'>
+                        <div className='profile_with_rating'>
+                            <img className='review_profile' src={profile} alt="" />
+                            <div>
+                                <h4 style={{margin:"0px"}}>Rahul</h4>
+                                <FaRegStar />
+                                <FaRegStar />
+                                <FaRegStar />
+                                <FaRegStar />
+                                <FaRegStar />
+                            </div>
+                            <p style={{textAlign:"end",display:"block",margin:"auto 0px"}}>1 year ago</p>
+                        </div>
+                        <p style={{textAlign:"justify",height:"150px",overflow:"hidden",marginTop:"10px"}}>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est nobis ipsa totam porro architecto quisquam reiciendis praesentium laboriosam eveniet blanditiis. Laborum, dolor nostrum. Ullam consectetur fugiat doloremque dicta, magni reiciendis.</p>
+                        <div style={{display:"flex"}}>
+                            <p style={{margin:"0px"}}>Helpful?</p>
+                        
+                            <IoMdThumbsUp className='rating_like_icon'/>
+                            <IoMdThumbsDown  className='rating_like_icon' />
+                        </div>
+                    </div>
+                    <div className='each_review'>
+                        <div className='profile_with_rating'>
+                            <img className='review_profile' src={profile} alt="" />
+                            <div>
+                                <h4 style={{margin:"0px"}}>Vivek</h4>
+                                <FaRegStar />
+                                <FaRegStar />
+                                <FaRegStar />
+                                <FaRegStar />
+                                <FaRegStar />
+                            </div>
+                            <p style={{textAlign:"end",display:"block",margin:"auto 0px"}}>1 day ago</p>
+                        </div>
+                        <p style={{textAlign:"justify",height:"150px",overflow:"hidden",marginTop:"10px"}}>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est nobis ipsa totam porro architecto quisquam reiciendis praesentium laboriosam eveniet blanditiis. Laborum, dolor nostrum. Ullam consectetur fugiat doloremque dicta, magni reiciendis.</p>
+                        <div style={{display:"flex"}}>
+                            <p style={{margin:"0px"}}>Helpful?</p>
+                        
+                            <IoMdThumbsUp className='rating_like_icon'/>
+                            <IoMdThumbsDown  className='rating_like_icon' />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button style={{backgroundColor:"#003566",color:"white",padding:"10px 30px",display:"block",margin:"auto",borderRadius:"30px"}}>More</button>
     </div>
   )
 }

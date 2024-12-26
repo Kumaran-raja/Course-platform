@@ -47,6 +47,32 @@
     border-radius: 10px;
     border: none;
 }
+/* Course Review Style */
+.review_container{
+    margin-top: 20px;
+}
+.review_grid{
+    display: grid;
+    grid-template-columns: 100%;
+    margin: 10px;
+}
+.each_review{
+    margin: 20px;
+}
+.review_profile{
+    width: 50px;
+    height: 50px;
+    border-radius: 180px;
+}
+.profile_with_rating{
+    display: grid;
+    grid-template-columns: 20% 40% 40%;
+}
+.rating_like_icon{
+    margin: 0px 10px;
+    display: block;
+    margin: auto 10px;
+}
 @media (min-width: 320px) and (max-width: 375px) {
     .free_trial{
         padding: 10px 15px;
@@ -59,6 +85,10 @@
     .list_of_content_item{
         grid-template-columns: 50% 25% 25%;
         overflow: hidden;
+    }
+    .profile_with_rating{
+        display: grid;
+        grid-template-columns: 25% 45% 30%;
     }
 }
 @media (min-width: 375px) and (max-width: 425px) {
@@ -83,6 +113,7 @@
     .list_of_content_item{
         grid-template-columns: 60% 20% 20%;
     }
+
 }
 
 @media (min-width: 600px) and (max-width: 767px) {
@@ -91,6 +122,13 @@
     }
     .list_of_content_item{
         grid-template-columns: 60% 20% 20%;
+    }
+    .review_grid{
+        grid-template-columns: 50% 50%;
+        margin: 10px
+    }
+    .profile_with_rating{
+        grid-template-columns: 30% 35% 35%;
     }
 }
 @media (min-width: 767px) and (max-width: 1023px) {
@@ -111,6 +149,12 @@
     .course_description_buy_btn{
         padding: 10px 15px;
         font-size: 20px;
+    }
+    .review_grid{
+        grid-template-columns: 50% 50%;
+    }
+    .profile_with_rating{
+        grid-template-columns: 20% 40% 40%;
     }
 }
 @media (min-width: 1023px) and (max-width: 1200px) {
@@ -136,6 +180,13 @@
     .course_description_img{
         width: 70%;
     }
+    .review_grid{
+        grid-template-columns: 25% 25% 25% 25%;
+        margin: 0px
+    }
+    .profile_with_rating{
+        grid-template-columns: 25% 40% 35%;
+    }
 }
 @media (min-width: 1200px) {
     .course_description_grid{
@@ -151,5 +202,9 @@
     }
     .course_description_img{
         width: 50%;
+    }
+    .review_grid{
+        grid-template-columns: 25% 25% 25% 25%;
+        margin: 10px
     }
 }
