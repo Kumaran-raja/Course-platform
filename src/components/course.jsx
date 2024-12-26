@@ -5,7 +5,12 @@ import course3 from '../assets/course3.png'
 import course4 from '../assets/course4.png'
 import { IoMdPerson } from "react-icons/io";
 import { FaRegStar } from "react-icons/fa";
-export default function course() {
+import { useNavigate } from 'react-router-dom'
+export default function Course() {
+    const navigate=useNavigate();
+    const pageNavigation=()=>{
+        navigate("/Coursedescription")
+    }
   return (
     <div>
         <h1 style={{textAlign:"center"}}>Courses</h1>
@@ -40,7 +45,7 @@ export default function course() {
                         <h3>₹8000</h3>
                         <h3>paid</h3>
                     </div>
-                    <button>Join Now</button>
+                    <button onClick={pageNavigation}>Join Now</button>
                     <hr />
                     <div style={{display:"flex",justifyContent:"space-between"}}>
                         <div style={{display:'flex'}}>
@@ -63,7 +68,7 @@ export default function course() {
                         <h3>₹ 8000</h3>
                         <h3>paid</h3>
                     </div>
-                    <button>Join Now</button>
+                    <button onClick={pageNavigation}>Join Now</button>
                     <hr />
                     <div style={{display:"flex",justifyContent:"space-between"}}>
                         <div style={{display:'flex'}}>
@@ -85,7 +90,7 @@ export default function course() {
                         <h3>₹ 8000</h3>
                         <h3>paid</h3>
                     </div>
-                    <button>Join Now</button>
+                    <button onClick={pageNavigation}>Join Now</button>
                     <hr />
                     <div style={{display:"flex",justifyContent:"space-between"}}>
                         <div style={{display:'flex'}}>
@@ -110,7 +115,7 @@ export default function course() {
                         <h3>₹ 8000</h3>
                         <h3>paid</h3>
                     </div>
-                    <button>Join Now</button>
+                    <button onClick={pageNavigation}>Join Now</button>
                     <hr />
                     <div style={{display:"flex",justifyContent:"space-between"}}>
                         <div style={{display:'flex'}}>
@@ -133,7 +138,7 @@ export default function course() {
                         <h3>₹8000</h3>
                         <h3>paid</h3>
                     </div>
-                    <button>Join Now</button>
+                    <button onClick={pageNavigation}>Join Now</button>
                     <hr />
                     <div style={{display:"flex",justifyContent:"space-between"}}>
                         <div style={{display:'flex'}}>
@@ -156,7 +161,7 @@ export default function course() {
                         <h3>₹ 8000</h3>
                         <h3>paid</h3>
                     </div>
-                    <button>Join Now</button>
+                    <button onClick={pageNavigation}>Join Now</button>
                     <hr />
                     <div style={{display:"flex",justifyContent:"space-between"}}>
                         <div style={{display:'flex'}}>
@@ -178,7 +183,7 @@ export default function course() {
                         <h3>₹ 8000</h3>
                         <h3>paid</h3>
                     </div>
-                    <button>Join Now</button>
+                    <button onClick={pageNavigation}>Join Now</button>
                     <hr />
                     <div style={{display:"flex",justifyContent:"space-between"}}>
                         <div style={{display:'flex'}}>

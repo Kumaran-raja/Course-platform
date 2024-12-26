@@ -12,7 +12,7 @@ import About from './components/about.jsx';
 import Exam from './components/exam.jsx';
 import Login from './components/login.jsx';
 import Register from './components/register.jsx';
-
+import CourseDescription from './components/courseDescription.jsx';
 const App = () => {
   const location = useLocation();
   
@@ -30,6 +30,7 @@ const App = () => {
         <Route path="/exam" element={<Exam />} />
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
+        <Route path="/coursedescription" element={<CourseDescription/>} />
       </Routes>
       {!isAuthPage && <Footer />}
     </>

@@ -7,7 +7,13 @@ import course3 from '../assets/course3.png'
 import course4 from '../assets/course4.png'
 import { IoMdPerson } from "react-icons/io";
 import { FaRegStar } from "react-icons/fa";
+import { useNavigate } from 'react-router-dom'
+
 export default function Home() {
+    const navigate=useNavigate();
+    const pageNavigation=()=>{
+        navigate("/Coursedescription")
+    }
     const [counts, setCounts] = useState({
         academyYears: 0,
         currentSelection: 0,
@@ -49,7 +55,7 @@ export default function Home() {
                 <p>Group 1,Group 2,Group 2A,Group 4, VAO</p>
                 <p>Preparation in English & Tamil</p>
                 <h2>Course | Exam</h2>
-                <button>Admission</button>
+                <button >Admission</button>
             </div>
             <img className='womenimg' src={women}/>
         </div>
@@ -86,7 +92,7 @@ export default function Home() {
                 <p>All Subjects</p>
                 <p>English & Tamil</p>
                 <p>Weekly LIVE Discussion</p>
-                <button>Join Now</button>
+                <button onClick={pageNavigation}>Join Now</button>
             </div>
             <div style={{backgroundColor:"orangered",color:"white"}} className='offers'>
                 <h2>UPSC</h2>
@@ -97,7 +103,7 @@ export default function Home() {
                 <p>All Subjects</p>
                 <p>English & Tamil</p>
                 <p>Weekly LIVE Discussion</p>
-                <button>Join Now</button>
+                <button onClick={pageNavigation}>Join Now</button>
             </div>
             <div style={{backgroundColor:"yellow"}} className='offers'>
                 <h2>Group 2</h2>
@@ -108,7 +114,7 @@ export default function Home() {
                 <p>All Subjects</p>
                 <p>English & Tamil</p>
                 <p>Weekly LIVE Discussion</p>
-                <button>Join Now</button>
+                <button onClick={pageNavigation}>Join Now</button>
             </div>
             <div style={{backgroundColor:"pink"}} className='offers'>
                 <h2>Group 4</h2>
@@ -119,7 +125,7 @@ export default function Home() {
                 <p>All Subjects</p>
                 <p>English & Tamil</p>
                 <p>Weekly LIVE Discussion</p>
-                <button>Join Now</button>
+                <button onClick={pageNavigation}>Join Now</button>
             </div>
         </div>
         <div>
@@ -132,7 +138,7 @@ export default function Home() {
                         <h3>₹ 8000</h3>
                         <h3>paid</h3>
                     </div>
-                    <button>Join Now</button>
+                    <button onClick={pageNavigation}>Join Now</button>
                     <hr />
                     <div style={{display:"flex",justifyContent:"space-between"}}>
                         <div style={{display:'flex'}}>
@@ -155,7 +161,7 @@ export default function Home() {
                         <h3>₹8000</h3>
                         <h3>paid</h3>
                     </div>
-                    <button>Join Now</button>
+                    <button onClick={pageNavigation}>Join Now</button>
                     <hr />
                     <div style={{display:"flex",justifyContent:"space-between"}}>
                         <div style={{display:'flex'}}>
@@ -178,7 +184,7 @@ export default function Home() {
                         <h3>₹ 8000</h3>
                         <h3>paid</h3>
                     </div>
-                    <button>Join Now</button>
+                    <button onClick={pageNavigation}>Join Now</button>
                     <hr />
                     <div style={{display:"flex",justifyContent:"space-between"}}>
                         <div style={{display:'flex'}}>
@@ -200,7 +206,7 @@ export default function Home() {
                         <h3>₹ 8000</h3>
                         <h3>paid</h3>
                     </div>
-                    <button>Join Now</button>
+                    <button onClick={pageNavigation}>Join Now</button>
                     <hr />
                     <div style={{display:"flex",justifyContent:"space-between"}}>
                         <div style={{display:'flex'}}>
