@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Course-platform/static/css/main.f4680eb5.css",
+    "main.js": "/Course-platform/static/js/main.24a8c059.js",
+    "static/js/488.dab223d2.chunk.js": "/Course-platform/static/js/488.dab223d2.chunk.js",
+    "static/media/course4.png": "/Course-platform/static/media/course4.86f6dfc60afc4423e360.png",
+    "static/media/about.png": "/Course-platform/static/media/about.2d78dfb94342c535ca42.png",
+    "static/media/course1.png": "/Course-platform/static/media/course1.d326016b4f8be66fd9f1.png",
+    "static/media/course3.png": "/Course-platform/static/media/course3.f03466dabc8a902ae430.png",
+    "static/media/course2.png": "/Course-platform/static/media/course2.bf27aa0d220051a017f3.png",
+    "static/media/contact.png": "/Course-platform/static/media/contact.f6f5955183d23387c84d.png",
+    "static/media/study women.png": "/Course-platform/static/media/study women.02bdfa55c9a402b7b00b.png",
+    "index.html": "/Course-platform/index.html",
+    "main.f4680eb5.css.map": "/Course-platform/static/css/main.f4680eb5.css.map",
+    "main.24a8c059.js.map": "/Course-platform/static/js/main.24a8c059.js.map",
+    "488.dab223d2.chunk.js.map": "/Course-platform/static/js/488.dab223d2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f4680eb5.css",
+    "static/js/main.24a8c059.js"
+  ]
+}
