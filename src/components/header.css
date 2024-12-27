@@ -22,31 +22,70 @@ header button{
     font-size: 20px;
     border: none;
 }
+.mobile_nav_menu button{
+    display: block;
+    margin: 10px;
+    padding: 10px 30px;
+    background-color: orange;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    border: none;
+}
+.mobile_header{
+    display: none;
+    background-color: #003566;
+}
+.burgerBtn{
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    margin: 10px;
+}
+.mobile_nav_menu{
+    width: 300px;
+    height: 100vh;
+    background-color: #003566;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 10000;
+
+}
 @media (min-width: 320px) and (max-width: 375px) {
-    .headermenu{
-        font-size: 10px;
-        padding: 10px;
+    header{
+        display: none;
     }
-    header button{
-        font-size: 15px;
+    .mobile_header{
+        display: flex;
+        justify-content: end;
     }
 }
 @media (min-width: 375px) and (max-width: 425px) {
-    .headermenu{
-        font-size: 13px;
-        padding: 10px;
+    header{
+        display: none;
+    }
+    .mobile_header{
+        display: flex;
+        justify-content: end;
     }
 }
 @media (min-width: 425px) and (max-width: 480px) {
-    .headermenu{
-        font-size: 15px;
-        padding: 10px;
+    header{
+        display: none;
+    }
+    .mobile_header{
+        display: flex;
+        justify-content: end;
     }
 }
 @media (min-width: 480px) and (max-width: 600px) {
-    .headermenu{
-        font-size: 20px;
-        padding: 10px;
+    header{
+        display: none;
+    }
+    .mobile_header{
+        display: flex;
+        justify-content: end;
     }
 }
 
