@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import './header.css'
 import { GiHamburgerMenu } from "react-icons/gi";
-import { IoClose } from "react-icons/io5";
+import { MdOutlineClose } from "react-icons/md";
 import { Link, useNavigate } from 'react-router-dom';
 
 export default function Header() {
@@ -33,7 +33,7 @@ export default function Header() {
         <GiHamburgerMenu className='burgerBtn' onClick={menuClick}/>
       </div>
       <div className='mobile_nav_menu' style={{display:menuVisible?"block" :"none"}}>
-          <IoClose style={{position:"absolute",right:"0",width:"40px",height:"40px",marginRight:"10px",marginTop:"10px"}} onClick={menuClick}/>
+          <MdOutlineClose  style={{position:"absolute",right:"0",width:"40px",height:"40px",marginRight:"10px",marginTop:"10px",color:"white"}} onClick={menuClick}/>
           <Link style={{marginTop:"60px"}} className='headermenu' to='/' onClick={(e)=>LinkClick(e,"/")}><li>Home</li></Link>
           <Link className='headermenu' to='/about'onClick={(e)=>LinkClick(e,"/about")}> <li >About</li></Link>
           <Link className='headermenu' to='/course'onClick={(e)=>LinkClick(e,"/course")}><li >Course</li></Link>
